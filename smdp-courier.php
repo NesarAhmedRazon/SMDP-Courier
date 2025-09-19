@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: SMDP Courier
+ * Plugin Name: SMDP: Courier
  * Plugin URI: https://github.com/NesarAhmedRazon/SMDP-Courier
  * Description: A plugin for Courier Services.
  * Version: 0.0.1
