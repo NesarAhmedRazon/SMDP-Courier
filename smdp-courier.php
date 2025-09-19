@@ -3,7 +3,7 @@
 /**
  * Plugin Name: SMDP Courier
  * Plugin URI: https://github.com/NesarAhmedRazon/SMDP-Courier
- * Description: A plugin for adding product types.
+ * Description: A plugin for Courier Services.
  * Version: 0.0.1
  * Author: Nesar Ahmed
  * Author URI: https://nesarahmed.dev/
@@ -39,4 +39,5 @@ add_action('woocommerce_init', 'smdpc_wooReady');
 function smdpc_wooReady()
 {
     include_once('inc/order-status.php');
+    include_once('pathao/core.php');
 }
