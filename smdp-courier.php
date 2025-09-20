@@ -35,6 +35,7 @@ if (!defined('SMDP_COURIER_FILE')) {
     define('SMDP_COURIER_FILE', __FILE__);
 }
 
+require_once SMDP_COURIER_DIR . 'inc/logger.php';
 add_action('woocommerce_init', 'smdpc_wooReady');
 function smdpc_wooReady()
 {
